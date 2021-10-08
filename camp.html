@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Elite Camp</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link  rel ="icon" type="img" href="media/jumpman.png">
+
+	<link rel="stylesheet" type="text/css" href="CSS/common.css">
+	<link rel="stylesheet" type="text/css" href="CSS/camp.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Link for the button -->
+
+
+	<style type="text/css">
+		fieldset{background-color: lightgrey;}
+		p{font-family: "oswald",sans-serif; font-size: 20px;}
+		li{font-family: "oswald",sans-serif;font-size: 15px;}
+		body{background-color: lightslategray;}
+		button{background-color: lightgrey;}
+		fieldset{font-size: 18px;}
+		h1{font-family: NHaasGroteskTXW02-75Bd,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+		span{color: red;}
+	</style>
+	<script type="text/javascript">
+		function fetch_data(){
+			//code
+			str_uname=
+			document.getElementById("name").value;
+			alert("Lets get better! "+str_uname);
+		}
+	</script>
+
+</head>
+
+
+
+<body>
+
+	<!-- Nav Bar Start -->
+	<div class="nav" id="nav">
+		<a href="index.html" >HOME</a>
+		<a href="articles.html">SI- article</a>
+		<a href="jb.html">Jordan Brand</a>
+		<a href="camp.html"class="current">Elite Camp</a>
+		<a href="team.html">Teammates</a>
+
+		<a href="javascript:void(0);" class="icon" onclick="myFunc()"><i class="fa fa-bars"></i></a>
+	</div>
+
+
+	<!-- Nav Bar End -->
+
+
+
+
+	<img src="media/jumpman.png" width="100" height="100"> <center><h1 >Jordan Camp</h1></center>
+<p>This camp will be conducted by profesional coaches and will include Michael Jordan personally dropping by from time to time and he will be presenr for the final tournament on the last day of the camp.</p><br>
+<p>What the training capm package includes:</p>
+<ul>
+	<li>Professional coaching.</li>
+	<li>Jordan Brand full basketball kit(2 sets).</li>
+	<li>NBA playoffs courtside ticket for tournament MVP.</li>
+</ul>
+<form>
+	<fieldset >
+		<legend style="font-size: 25px; background-color: wheat;" >Personal Details</legend>
+		<label>Name:<br><input type="text" name="name" id="name" size="20" maxlength="40" placeholder="name" required=""><span>*</span></label><br><br>
+		<label>Age:<br><input type="text" required name="age" id="age" size="15" maxlength="25" placeholder="age" required=""><span>*</span></label><br><br>
+		<label>Date of birth:<br><input type="date" required name="dob" id="dob" required=""><span>*</span></label><br><br>
+		<label>Gender: <br><input type="radio" name="gender" value="Male">Male<input type="radio" name="Ggender" value="female">Female<input type="radio" name="gender" value="other">Other</label><br><br>
+		<label>Mobile no:<br><input type="text" name="mobile" id="mobile" placeholder="mobile no" required=""><span>*</span></label><br><br>
+		<label>Email:<br><input type="email" name="mail" id="mail" placeholder="e-mail"></label><br><br>
+		<label>Country/Region:<br><select name="countries" size="1" required="">
+			<option value="select">---Select---</option>
+			<option value="america">America(USA)</option>
+			<option value="mexico">Mexico</option>
+			<option value="india">India</option>
+			<option value="south_america">South America</option>
+			<option value="africa">Africa</option>
+			<option value="erope">Europe</option>
+			<option value="east_asia">East Asia</option>
+		</select><span>*</span></label><br><br>
+		<label>Upload your :College/School Transcript<br><input type="file" name="transcript"></label><br><br>
+		<p>Game attributes:</p>
+		<label>Height: <input type="text" name="height" placeholder="in cm" required=""><span>*</span></label>
+		<center><label>Weight: <input type="text" name="weight" placeholder="in kgs" required=""><span>*</span></label></center>
+		<label>Position:<br><input type="checkbox" name="sg" value="pg">PG<input type="checkbox" name="sg" value="sg">SG<input type="checkbox" name="sf" value="sf">SF<input type="checkbox" name="pf" value="pf">PF<input type="checkbox" name="c" value="c">C</label><br><br>
+		<label>Please enter any further enquiry you have, it will be sent by mail.<br><textarea name="enquiry" id="enquiry" cols="60" rows="4" placeholder="please type your enquiry here...."></textarea></label><br>
+		
+			<button onclick="fetch_data();" >
+				<img src="media/submit.png" alt="submit_form" width="90" height="35">
+			</button>
+		</label>
+	</fieldset>
+	<label><br><button>
+			<img src="media/reset.jpeg" height="25" width="60" input type="reset" value="clear">
+		</button></label><br><br>
+		<label>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Footer Start -->
+	<div class="footer">
+		<div class="info">
+
+			<p>
+				St. Xavier's College<br>
+				5 Mahapalika Marg<br>
+				Fort<br>
+				Mumbai, Maharashtra - 400001 <br>
+			</p>
+
+			<p>
+				You can contact us through:- 
+				<br>
+				raudmaan.irani@xaviers.edu.in 
+				<br>
+				989876333
+				
+
+			</p>
+			
+		</div>
+
+		<div class="social">
+			<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+			<a href="https://www.twitter.com" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/barackobama" class="fa fa-instagram"></a>
+		</div>
+
+		<div class="end">
+
+			<p>© 2020-2021, Raudmaan Irani, Inc. or its affiliates</p>
+			
+		</div>
+		
+	</div>
+
+	<!-- Footer End -->
+
+
+	<!-- Scripts Start -->
+
+		<script type="text/javascript" src="Includes/nav.js"></script>
+
+	<!-- Scripts End  -->
+
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+.nav {
+	overflow: hidden;
+	background-color:black ;
+}
+
+.nav a {
+	color: white;
+	font-size: 23px;
+	font-family:NHaasGroteskTXW02-75Bd,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+	text-decoration: none;
+
+	padding: 14px 16px;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.nav a:hover {
+	background: aqua;
+	color: black;
+}
+
+.nav a.current {
+	background: aqua;
+	color: black;
+}
+
+.nav .icon {
+	display: none;
+}
+
+
+@media screen and (max-width:600px) {
+	.nav a:not(.current) {display: none;}
+	.nav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.nav a.active {
+		background: none;
+		color: white;
+	}
+}
+
+
+
+
+/* Footer Start */
+
+.footer {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 30px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+.social {
+  float: left;
+}
+
+.social a {
+  color: black;
+  padding: 20px;
+  font-size: 40px;
+  background-color: aqua;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+}
+
+.social a:hover {
+  color: aqua;
+  background-color: black;
+}
+
+.end {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (max-width:  770px) {
+
+  .footer {
+    grid-template-columns: 100%;
+    grid-row-gap: 3em;
+    text-align: center;
+  }
+
+  .social a {
+    font-size: 25px;
+    width: 35px;
+  }
+
+
+}
+
+/* Footer End */

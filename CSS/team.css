@@ -1,0 +1,40 @@
+.teams {
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+	background: #ddd;
+	margin: 2px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+
+.my-man {
+	background: #aed6b8;
+}
+
+.my-man img {
+	width: 100%;
+	height: 290px;
+}
+
+.my-man p {
+	width: 80%;
+	padding-left: 20px;
+	font-size: 22px;
+}
+
+
+.my-man h3 {
+	width: 80%;
+	padding-left: 15px;
+	font-size: 26px;
+}
+
+
+@media (max-width: 700px) {
+	.teams {
+		grid-template-columns: 1fr 1fr;
+	}
+}

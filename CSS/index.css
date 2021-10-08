@@ -1,0 +1,80 @@
+body {
+  background-color: grey;
+}
+
+
+
+.carousel {
+  padding: 15px;
+
+}
+
+.carousel-cell {
+  width: 50%;
+  height: 500px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+  border-radius: 3px;
+}
+
+#pic1 {
+  background: url(../media/jumpman.png);  //edit the file name
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#pic2 {
+  background: url(../media/laugh.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#pic3 {
+  background: url(../media/MJgoat.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#pic4 {
+  background: url(../media/last_dance.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#pic5 {
+  background: url(../media/pic5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+
+/*Article Styling Start*/
+
+.article {
+  padding:  25px;
+  margin: 15px;
+  background: #fae1b4;
+  border-radius: 12px;
+}
+
+.article .title {
+  font-size: 50px;
+}
+
+.something img {
+  height: 25%;
+  width: 40%;
+}
+
+
+
+
+
+/*Article Styling   End*/
